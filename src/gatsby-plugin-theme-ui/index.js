@@ -9,7 +9,6 @@ const = merge(tailwind, {
     primary: tailwind.colors.purple[7],
     secondary: `#5f6c80`,
     toggleIcon: tailwind.colors.gray[8],
-    background: '#5762B8',
     heading: tailwind.colors.black,
     divide: tailwind.colors.gray[4],
     modes: {
