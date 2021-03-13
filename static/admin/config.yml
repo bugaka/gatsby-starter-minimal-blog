@@ -11,3 +11,6 @@ public_folder: "/images/uploads"
 site_url: https://jolly-varahamihira-739ec5.netlify.app/
 display_url: https://jolly-varahamihira-739ec5.netlify.app/
 
+collections:
+  - name: posts
+    identifier_field: name
