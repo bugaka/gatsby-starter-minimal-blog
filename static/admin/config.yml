@@ -9,3 +9,5 @@ media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 
 site_url: https://jolly-varahamihira-739ec5.netlify.app/
+display_url: https://jolly-varahamihira-739ec5.netlify.app/
+
