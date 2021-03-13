@@ -7,7 +7,7 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 module.exports = {
   siteMetadata: {
     siteTitleAlt: `Vuk Jovin Blog`,
-    siteTitle: `Vuk Jovin`,
+    siteTitle: ``,
   },
   plugins: [
     {
@@ -15,6 +15,10 @@ module.exports = {
       // See the theme's README for all available options
       options: {
         navigation: [
+          {
+            title: `Home`,
+            slug: `/`,
+          },
           {
             title: `Blog`,
             slug: `/blog`,
@@ -26,11 +30,11 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
+            name: `Facebook`,
             url: `https://twitter.com/lekoarts_de`,
           },
           {
-            name: `Instagram`,
+            name: `Linkedin`,
             url: `https://www.instagram.com/lekoarts.de/`,
           },
         ],
