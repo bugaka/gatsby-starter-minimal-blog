@@ -31,11 +31,11 @@ module.exports = {
         externalLinks: [
           {
             name: `Facebook`,
-            url: `https://www.facebook.com`,
+            url: `https://www.facebook.com/vuk.jovin.98`,
           },
           {
             name: `Linkedin`,
-            url: `https://www.linkedin.com/feed/`,
+            url: `https://www.linkedin.com/in/vuk-jovin-1b2aa015/`,
           },
         ],
       },
