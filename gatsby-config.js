@@ -31,11 +31,11 @@ module.exports = {
         externalLinks: [
           {
             name: `Facebook`,
-            url: `https://twitter.com/lekoarts_de`,
+            url: `https://www.facebook.com`,
           },
           {
             name: `Linkedin`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            url: `https://www.linkedin.com/feed/`,
           },
         ],
       },
