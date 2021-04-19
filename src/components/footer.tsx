@@ -20,9 +20,7 @@ const Footer = () => {
         variant: `dividers.top`,
       }}
     >
-      <div>
-        &copy; {new Date().getFullYear()} by {siteTitle}. All rights reserved.
-      </div>
+      
       <div>
         <Link
           aria-label="Link to the theme's GitHub repository"
