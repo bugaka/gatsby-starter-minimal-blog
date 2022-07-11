@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main # <------ THIS
+  branch: master # <------ THIS
   
 # This line should *not* be indented
 publish_mode: editorial_workflow
