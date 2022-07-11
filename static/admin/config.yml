@@ -24,3 +24,6 @@ collections:
       - {label: "Featured Image", name: "banner", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
 
+backend:
+  name: git-gateway
+  branch: main # <------ THIS
