@@ -8,7 +8,7 @@ module.exports = {
   siteMetadata: {
     siteTitleAlt: `Vuk Jovin Blog`,
     siteTitle: ``,
-    start_url: `https://www.vukjovin.com`,
+    start_url: 'https://www.vukjovin.com',
   },
   plugins: [
     {
@@ -49,26 +49,36 @@ module.exports = {
     },
     `gatsby-plugin-sitemap`,
     {
-      resolve: `gatsby-plugin-manifest`,
+       {
+      resolve: `gatsby-plugin-sitemap`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
-        background_color: `#fff`,
-        theme_color: `#6B46C1`,
-        display: `standalone`,
-        icons: [
+        host: 'https://www.vukjovin.com',
+        query: `
           {
-            src: `/android-chrome-192x192.png`,
-            sizes: `192x192`,
-            type: `image/png`,
-          },
-          {
-            src: `/android-chrome-512x512.png`,
-            sizes: `512x512`,
-            type: `image/png`,
-          },
-        ],
+           site {
+             siteMetadata {
+                siteUrl
+              }
+            }
+
+            allSitePage {
+              edges {
+                node {
+                  path
+                }
+              }
+            }
+        }`,
+        serialize: ({ site, allSitePage }) =>
+          allSitePage.edges.map(edge => {
+            return {
+              url: site.siteMetadata.siteUrl + edge.node.path,
+              changefreq: `daily`,
+              priority: 0.7,
+            }
+          })
+      }
+    }
       },
     },
     `gatsby-plugin-offline`,
