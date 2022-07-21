@@ -8,6 +8,7 @@ module.exports = {
   siteMetadata: {
     siteTitleAlt: `Vuk Jovin Blog`,
     siteTitle: ``,
+    start_url: `https://www.vukjovin.com`
   },
   plugins: [
     {
