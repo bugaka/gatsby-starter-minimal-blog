@@ -8,7 +8,7 @@ module.exports = {
   siteMetadata: {
     siteTitleAlt: `Vuk Jovin Blog`,
     siteTitle: ``,
-    start_url: `https://www.vukjovin.com`,
+    siteUrl: `https://www.vukjovin.com`,
   },
   plugins: [
     {
@@ -47,7 +47,30 @@ module.exports = {
         trackingId: process.env.GOOGLE_ANALYTICS_ID,
       },
     },
-    `gatsby-plugin-sitemap`,
+    {
+      resolve: 'gatsby-plugin-sitemap',
+      options: {
+        exclude: ['/admin'],
+        query: `
+          {
+            site {
+              siteMetadata {
+                siteUrl
+              }
+            }
+            allSitePage {
+              edges {
+                node {
+                  path
+                }
+              }
+            }
+          }
+        `,
+      },
+    },
+  ],
+};
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
