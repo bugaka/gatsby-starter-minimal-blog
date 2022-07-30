@@ -74,7 +74,7 @@ module.exports = {
       options: {
         name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
         short_name: `minimal-blog`,
-        description: `SEO content writing reflections and services`,
+        description: `content about SEO content writing services`,
         start_url: `/`,
         background_color: `#fff`,
         // This will impact how browsers show your PWA/website
