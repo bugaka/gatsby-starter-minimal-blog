@@ -6,8 +6,8 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Vuk Jovin Blog`,
-    siteTitle: ``,
+    siteTitle: `Vuk Jovin's Blog`,
+    description: `Content about content writing services and SEO`,
     siteUrl: `https://www.vukjovin.com`,
   },
   plugins: [
@@ -74,7 +74,7 @@ module.exports = {
       options: {
         name: `Vuk Jovin's blog and bio site`,
         short_name: `Vuk Jovin's site`,
-        description: `content about content writing services and SEO`,
+        description: `Content about content writing services and SEO`,
         start_url: `/`,
         background_color: `#fff`,
         // This will impact how browsers show your PWA/website
