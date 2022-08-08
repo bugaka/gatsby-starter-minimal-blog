@@ -72,8 +72,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
+        name: `Vuk Jovin's blog and bio site`,
+        short_name: `Vuk Jovin's site`,
         description: `content about content writing services and SEO`,
         start_url: `/`,
         background_color: `#fff`,
