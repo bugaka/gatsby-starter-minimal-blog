@@ -48,31 +48,7 @@ module.exports = {
         trackingId: process.env.GOOGLE_ANALYTICS_ID,
       },
     },
-    {
-      resolve: 'gatsby-plugin-sitemap',
-      options: {
-        exclude: ['/admin'],
-        query: `
-          {
-            site {
-              siteMetadata {
-                siteTitle
-                siteHeadline
-                siteDescription
-                siteUrl
-              }
-            }
-            allSitePage {
-              edges {
-                node {
-                  path
-                }
-              }
-            }
-          }
-        `,
-      },
-    },
+    
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
