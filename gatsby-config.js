@@ -13,7 +13,7 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `@lekoarts/gatsby-theme-minimal-blog`,
+      resolve: `@lekoarts/gatsby-theme-minimal-blog-core`,
       // See the theme's README for all available options
       options: {
         navigation: [
