@@ -53,15 +53,7 @@ module.exports = {
       options: {
         exclude: ['/admin'],
         query: `
-          {
-            site {
-              siteMetadata {
-                siteTitle
-                siteHeadline
-                siteDescription
-                siteUrl
-              }
-            }
+        
             allSitePage {
               edges {
                 node {
