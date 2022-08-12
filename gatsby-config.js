@@ -7,7 +7,6 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 module.exports = {
   siteMetadata: {
     siteTitle: `Vuk Jovin's Blog`,
-    siteHeadline: `Vuk Jovin's Blog`,
     siteDescription: `Content about content writing services and SEO`,
     siteUrl: `https://www.vukjovin.com`,
   },
@@ -48,7 +47,30 @@ module.exports = {
         trackingId: process.env.GOOGLE_ANALYTICS_ID,
       },
     },
-    
+    {
+      resolve: 'gatsby-plugin-sitemap',
+      options: {
+        exclude: ['/admin'],
+        query: `
+          {
+            site {
+              siteMetadata {
+                siteTitle
+                siteDescription
+                siteUrl
+              }
+            }
+            allSitePage {
+              edges {
+                node {
+                  path
+                }
+              }
+            }
+          }
+        `,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -87,4 +109,3 @@ module.exports = {
       },
     },
   ].filter(Boolean),
-}
