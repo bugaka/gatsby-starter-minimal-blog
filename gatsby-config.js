@@ -55,9 +55,7 @@ module.exports = {
           {
             site {
               siteMetadata {
-                siteTitle
-                siteDescription
-                siteUrl
+               siteUrl
               }
             }
             allSitePage {
