@@ -70,5 +70,6 @@ module.exports = {
           }
         `,
       },
-    }
+  ].filter(Boolean),
+}
 
