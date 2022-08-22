@@ -6,9 +6,8 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitle: `Vuk Jovin's Blog`,
-    siteTitleAlt: `Vuk Jovin's real Blog`,
-    siteHeadline: `Content site 4 u`,
+    siteTitle: `Vuk Jovin's blog`,
+    siteTitleAlt: `Vuk Jovin's blog site about content writing in the age of AI`,
     siteDescription: `Content about content writing services and SEO`,
     siteUrl: `https://www.vukjovin.com`,
   },
@@ -74,9 +73,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        name: `Vuk Jovin's blog site about content writing in the age of AI`,
+        short_name: `Vuk Jovin's blog`,
+        description: `Content about content writing services and SEO`,
         start_url: `/`,
         background_color: `#fff`,
         // This will impact how browsers show your PWA/website
