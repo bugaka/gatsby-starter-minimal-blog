@@ -75,7 +75,7 @@ module.exports = {
       options: {
         name: `Vuk Jovin's blog site about content writing in the age of AI`,
         short_name: `Vuk Jovin's blog`,
-        description: `Content about content writing services and SEO`,
+        description: `Content about content writing services in the age of AI and search engine optimization.`,
         start_url: `/`,
         background_color: `#fff`,
         // This will impact how browsers show your PWA/website
