@@ -3,7 +3,7 @@
   "name": "`A blog about content writing in the age of AI",
   "description": "Content about content writing services in the age of AI and search engine optimization.",
   "version": "1.3.10",
-  "author": "LekoArts <hello@lekoarts.de>",
+  "author": "Vuk Jovin",
   "license": "0BSD",
   "starter-name": "gatsby-starter-minimal-blog",
   "scripts": {
