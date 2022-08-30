@@ -6,7 +6,8 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitle: `A blog about content writing in the age of AI`,
+    siteTitle: ``,
+    siteHeadline: `A blog about content writing in the age of AI`,
     siteTitleAlt: `A blog about content writing in the age of AI and a CV site`,
     siteDescription: `Content about content writing services in the age of AI and search engine optimization.`,
     siteUrl: `https://www.vukjovin.com`,
@@ -59,6 +60,7 @@ module.exports = {
                siteUrl
                title: siteTitle
                description: siteDescription
+               headline: siteHeadline
               }
             }
             allSitePage {
