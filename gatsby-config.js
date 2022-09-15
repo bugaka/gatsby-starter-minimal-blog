@@ -9,7 +9,7 @@ module.exports = {
     siteTitle: `Vuk Jovin`,
     siteHeadline: `AI Content Creation & SEO`,
     siteTitleAlt: `AI Content Creation & SEO`,
-    siteDescription: `Content about content writing services in the age of AI and search engine optimization.`,
+    siteDescription: `Content writing services, content writing automation and AI - all in one place.`,
     siteUrl: `https://www.vukjovin.com`,
   },
   plugins: [
