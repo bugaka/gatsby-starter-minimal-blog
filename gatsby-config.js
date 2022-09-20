@@ -77,9 +77,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Vuk Jovin's blog site about content writing in the age of AI`,
-        short_name: `Vuk Jovin's blog`,
-        description: `Content about content writing services in the age of AI and search engine optimization.`,
+        name: `AI Content Creation & SEO`,
+        short_name: `Vuk Jovin`,
+        description: `Content writing services, content writing automation and AI - all in one place.`,
         start_url: `/`,
         background_color: `#fff`,
         // This will impact how browsers show your PWA/website
