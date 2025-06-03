@@ -24,7 +24,7 @@
     "gatsby-plugin-netlify": "^2.4.0",
     "gatsby-plugin-offline": "^3.3.3",
     "gatsby-plugin-sitemap": "^2.5.1",
-    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.13",
+    "gatsby-plugin-webpack-bundle-analyzer": "^1.0.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
